@@ -22,6 +22,7 @@
 
 - 只使用 markdown cell
 - **命令、代码、配置**要写在相应的 markdown fenced code block 中
+- text 不要 markdown fenced code block
 
 ### 2. 全面且简洁
 
