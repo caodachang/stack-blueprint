@@ -1,7 +1,7 @@
 [project]
-name = "full-stack-glossary-manual"
+name = "stack-blueprint"
 version = "0.1.0"
-description = "全栈名词学习笔记"
+description = "技术栈蓝图——AI 时代全栈工程师的知识地图。看懂能判断，AI 来执行。"
 requires-python = ">=3.12"
 
 dependencies = [
