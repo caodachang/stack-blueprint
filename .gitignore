@@ -1,0 +1,80 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.env/
+env/
+ENV/
+*.egg-info/
+*.egg
+.eggs/
+pip-wheel-metadata/
+dist/
+build/
+site/
+
+# Python tools
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+.tox/
+.nox/
+.mypy_cache/
+.pyre/
+.ruff_cache/
+
+# uv 与工具缓存（保留 uv.lock，保证依赖可复现）
+.uv-cache/
+.cache/
+
+# 前端依赖与缓存
+node_modules/
+.npm/
+.parcel-cache/
+.vite/
+
+# Jupyter and IPython
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+.ipython/profile_default/history.sqlite
+
+# 环境变量
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+!.env.dist
+!.env.*.example
+!.env.*.sample
+!.env.*.template
+!.env.*.dist
+
+# IDE
+.vscode/
+.idea/
+.vs/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# 编辑器与临时文件
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+*~
+
+# 根目录本地资料处理与临时工作区
+/tmp/
+/work/
